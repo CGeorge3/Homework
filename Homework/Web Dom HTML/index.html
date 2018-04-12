@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- victory -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h1>UFO Search</h1>
+      <p>
+        <a id="one" class="btn btn-primary btn-lg" role="button">Click Here for First UFO Sighting!</a>
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="form-inline">
+          <input type="text" class="form-control" id="date" style="width: 130px" placeholder="enter d/m/yyyy">
+          <input type="text" class="form-control" id="city" style="width: 130px" placeholder="City">
+          <input type="text" class="form-control" id="state" style="width: 130px" placeholder="State">
+          <input type="text" class="form-control" id="country" style="width: 130px" placeholder="Country">
+          <input type="text" class="form-control" id="shape" style="width: 130px" placeholder="Shape">
+          <a id="search" class="btn btn-primary">Search</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped" id="myTable">
+          <thead>
+            <tr>
+              <th>Date/Time</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Country</th>
+              <th>Shape</th>
+              <th>Duration</th>
+              <th>Comments</th>
+            </tr>
+          </thead>
+          <tbody id="myTableBody">
+          </tbody>
+        </table>
+        <div class="col-md-12 text-center">
+          <ul class="pagination pagination-lg pager" id="myPager"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="data.js" type="text/javascript"></script>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
