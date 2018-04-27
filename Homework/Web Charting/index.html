@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>City Population</title>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  
+  <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- <div id='legend' style='display:none;'>
+        <strong>Earthquake Magnitude</strong>
+        <nav class='legend clearfix'>
+          <span style='background:rgb(213, 127, 230);'></span>
+          <span style='background:rgb(96, 81, 165);'></span>
+          <span style='background:rgb(71, 127, 167);'></span>
+          <span style='background:rgb(20, 67, 90);'></span>
+          <span style='background:rgb(58, 23, 114);'></span>
+          <label>0 - 1.9</label>
+          <label>2.0 +</label>
+          <label>3.0 + </label>
+          <label>4.0 +</label>
+          <label>5.0 +</label>
+           -->
+      </div>
+  <!-- The div where we will inject our map -->
+  <div id="map"></div>
+
+  <!-- Our JS -->
+  <script type="text/javascript" src="logic1.js"></script>
+</body>
+</html>
