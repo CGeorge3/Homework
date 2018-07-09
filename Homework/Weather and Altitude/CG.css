@@ -1,0 +1,128 @@
+.navbar-brand{
+    font-family: 'lato', sans-serif;
+    font-size: 40px;
+    color: #003399
+  }
+  
+  .nav.navbar-nav.navbar-right li a {
+      color: #003399;
+      font-family: 'lato', sans-serif;
+      font-size: 20px;
+  }
+  
+    .navbar {
+    padding: 20px;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* cursor: pointer; */
+    background: #fff;
+    border-radius: 3px;
+  }
+  
+    body {
+        background: white ;
+        font-family: 'lato', sans-serif;
+      }
+  
+      body {
+        background: #f1f1f1;
+      }
+          
+      /* Getting rid of the default link styles here */
+      .navbar li a {
+        color: #000;
+        text-decoration: none;
+      }
+      
+      /* Styling the header, giving it a height, a background color, and some top padding */
+      .header {
+        height: 200px;
+        padding-top: 20px;
+        background: #cdcdcd;
+      }
+      
+      /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+      .header h1 {
+        padding: 60px;
+        margin: 0;
+        color: #003399;
+        text-align: center;
+      }
+      
+      /* Giving the .post element margin on 3 sides */
+      .post {
+        margin-top: 20px;
+        margin-right: 150px;
+        margin-left: 150px;
+      }
+      
+   
+    .box {
+      height: 400px;
+      padding: 20px;
+      color: #fff;
+      background: deepskyblue;
+    }
+    
+    .margin-top-80 {
+      margin-top: 80px;
+    }
+    
+    .col-md-4 {
+      padding-top: .75rem;
+      padding-bottom: .75rem;
+      background-color: rgba(86,61,124,.15);
+      border: 1px solid rgba(86,61,124,.2);
+    }
+    /* https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984 */
+    .col-md-8 {
+      padding-top: .75rem;
+      padding-bottom: .75rem;
+      background-color: rgba(86,0,0,.15);
+      border: 1px solid rgba(86,61,124,.2);
+    }
+    .col-md-6 {
+      padding-top: .25rem;
+      padding-bottom: .25rem;
+      background-color: rgba(94, 77, 134, 0.336);
+      border: 1px solid rgba(86,61,124,.2);
+    }
+    
+    .col-md-12 {
+      padding-top: .75rem;
+      padding-bottom: .75rem;
+      background-color: rgba(68, 68, 138, 0.363);
+      border: 1px solid rgba(86,61,124,.2);
+    }
+
+    .home{
+      background: url(../images/homebg.jpg) no-repeat 100% 100%;
+      background-size: cover;
+      background-color: rgb(120, 106, 143)
+    }
+  
+      .home .main_home{
+      padding-top: 25px;
+      }
+  
+      .home .main_home h4{
+      color: #fff;
+      padding-bottom: 25x;
+      font-size:4.5rem;
+      line-height: 5rem;
+      }
+      .home .main_home h2{
+        color: #fff;
+        font-size:2rem;
+        text-align: center;
+      }
+      .home .main_home p{
+        color: #fff;
+        max-width: 70%;
+        margin: 0 auto;
+        padding-bottom: 20px
+  }
+
+   
