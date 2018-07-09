@@ -98,7 +98,7 @@
     }
 
     .home{
-      background: url(../images/homebg.jpg) no-repeat 100% 100%;
+      background: url(./images/homebg.jpg) no-repeat 100% 100%;
       background-size: cover;
       background-color: rgb(120, 106, 143)
     }
